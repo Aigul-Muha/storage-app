@@ -49,3 +49,23 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 700px) {
+  .active {
+    padding: 10px 7px 11px 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  .top {
+    width: 80vw;
+    height: 30px;
+  }
+  .active {
+    font-size: 2vw;
+    padding: 10px 10px 11px 10px;
+  }
+  .link {
+    font-size: 2vw;
+  }
+}

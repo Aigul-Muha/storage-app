@@ -123,12 +123,6 @@
   min-height: 25vw;
 }
 
-@media (max-width: 1000px) {
-  .right {
-    min-height: 28vw;
-  }
-}
-
 .price {
   color: #2d3b87;
   font-family: Rubik;
@@ -171,7 +165,6 @@
 
 .dealsBtn {
   display: flex;
-  // padding: 17.5px 25px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -191,7 +184,6 @@
 
 .dealsBtnAdded {
   display: flex;
-  // padding: 17.5px 25px;
   justify-content: center;
   align-items: center;
   gap: 8px;
@@ -235,4 +227,136 @@
   background: #2d3b87;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .root {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 670px) {
+  .root {
+    min-height: 200px;
+  }
+  .left {
+    width: 70%;
+  }
+  .location {
+    width: 150px;
+  }
+  .productInfo {
+    width: 100px;
+  }
+  .right {
+    width: 30%;
+  }
+  .buttons {
+    gap: 8px;
+  }
+  .dealsBtn {
+    font-size: 1.5vw;
+  }
+  .dealsBtnAdded {
+    font-size: 1.5vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .root {
+    min-height: 150px;
+    flex-direction: column;
+  }
+  .left {
+    padding: 15px;
+    border: 1px solid #e0e3ee;
+    gap: 15px;
+    border-radius: 20px;
+    width: 93%;
+  }
+  .type {
+    font-size: 2vw;
+  }
+  .title {
+    font-size: 2.4vw;
+  }
+  .location {
+    font-size: 2vw;
+    width: 90%;
+  }
+  .text {
+    font-size: 2vw;
+  }
+  .product {
+    font-size: 2vw;
+  }
+  .description {
+    font-size: 2vw;
+  }
+  .right {
+    width: 92%;
+  }
+  .price {
+    font-size: 3.4vw;
+  }
+  .count {
+    font-size: 2vw;
+  }
+  .countItem {
+    font-size: 2vw;
+  }
+  .dealsBtn {
+    font-size: 2.4vw;
+  }
+  .dealsBtnAdded {
+    font-size: 2.4vw;
+  }
+}
+
+@media (max-width: 350px) {
+  .left {
+    flex-direction: column;
+  }
+  .img {
+    width: 40vw;
+    height: 40vw;
+    margin: 0 auto;
+  }
+  .type {
+    font-size: 3vw;
+  }
+  .title {
+    font-size: 3.4vw;
+  }
+  .location {
+    font-size: 3vw;
+    width: 80%;
+  }
+  .text {
+    font-size: 3vw;
+  }
+  .product {
+    font-size: 3vw;
+  }
+  .description {
+    font-size: 3vw;
+  }
+  .right {
+    width: 91%;
+  }
+  .price {
+    font-size: 4.4vw;
+  }
+  .count {
+    font-size: 3vw;
+  }
+  .countItem {
+    font-size: 3vw;
+  }
+  .dealsBtn {
+    font-size: 3.4vw;
+  }
+  .dealsBtnAdded {
+    font-size: 3.4vw;
+  }
 }
